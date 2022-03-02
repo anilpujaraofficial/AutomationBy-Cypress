@@ -9,7 +9,7 @@ export class Login {
     cy.get("input[type='email']").type(email);
   }
   enterPassword(psw) {
-    cy.get("input[type='password']").type(psw);
+    cy.get("input[type='password']").type(pswgit);
   }
   formSubmit() {
     cy.get("button[type='submit']").click();
